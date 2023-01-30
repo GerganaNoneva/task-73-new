@@ -1,3 +1,4 @@
+import Counter from "./Counter.js";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+          <Counter/>
         </div>
       </div>
     </div>
